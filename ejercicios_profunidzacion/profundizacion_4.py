@@ -65,3 +65,31 @@ Alumno:
 
 print("Mi Calculadora (^_^)")
 # Empezar aquí la resolución del ejercicio
+
+while True:
+  print("- 1- Suma (+)")
+  print("- 2- Resta (-)")
+  print("- 3- Multiplicación (*)")
+  print("- 4- División (/)")
+  print("- 5- SALIR")
+
+
+  resultado = 0
+
+  numero_1 = int(input("ingrese primer numero: "))
+  numero_2 = int(input("ingrese segundo numero: "))
+  operacion = str(input("seleccione operacion a realizar: "))
+
+  
+  if operacion == "1":
+    resultado = numero_1 + numero_2
+  elif operacion == "2":
+    resultado = numero_1 - numero_2
+  elif operacion == "3":
+    resultado = numero_1 * numero_2
+  elif operacion == "4":
+    resultado = numero_1 / numero_2
+  elif operacion == "5":
+    break  
+  
+    
