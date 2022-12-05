@@ -55,11 +55,11 @@ cantidad_temperaturas = 0
 promedio = 0
 
 for temperatura in temperaturas:
-  suma_total += int(temperatura)
+  suma_total += temperatura
 
 for temperatura in temperaturas:
   cantidad_temperaturas += 1
 
-promedio = int(suma_total / cantidad_temperaturas)
+promedio = suma_total / cantidad_temperaturas
 
 print(f"la suma total es, {suma_total}, la cantidad de temperaturas es, {cantidad_temperaturas}, y el promedio final es {promedio}")

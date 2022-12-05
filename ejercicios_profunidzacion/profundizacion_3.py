@@ -72,19 +72,19 @@ temperatura_min = 0
 
 
 
-suma_total = int(sum(temperaturas))
+suma_total = sum(temperaturas)
 
 
 cantidad_temperaturas = len(temperaturas)
 
 
-promedio = int(suma_total / cantidad_temperaturas)
+promedio = suma_total / cantidad_temperaturas
 
 
-temperatura_max = int(max(temperaturas))
+temperatura_max = max(temperaturas)
 
 
-temperatura_min = int(min(temperaturas))
+temperatura_min = min(temperaturas)
 
 print(suma_total)
 print(cantidad_temperaturas)
